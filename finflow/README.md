@@ -49,7 +49,7 @@ A high-end, responsive MERN stack expense tracker with stunning micro-interactio
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/finflow.git
+git clone https://github.com/25harpreet20111/Finflow.git
 cd finflow
 ```
 
@@ -108,24 +108,24 @@ finflow/
 ├── server/
 │   ├── models/          # Mongoose schemas
 │   ├── routes/          # Express routes
-│   ├── middleware/      # Auth middleware
-│   └── index.js         # Server entry
+│   ├── middleware/      # Authentication middleware
+│   └── index.js         # Server entry point
 ├── client/
 │   ├── src/
 │   │   ├── components/
-│   │   │   ├── ui/          # Reusable UI components
-│   │   │   ├── layout/      # Header, Footer, Layout
-│   │   │   ├── dashboard/   # Dashboard widgets
-│   │   │   ├── transactions/# Transaction forms
-│   │   │   ├── groups/      # Group components
-│   │   │   └── sms/        # SMS parser
-│   │   ├── pages/           # Route pages
-│   │   ├── context/        # React contexts
-│   │   ├── hooks/          # Custom hooks
-│   │   ├── utils/          # Utility functions
-│   │   └── assets/         # Lottie animations
+│   │   │   ├── layout/
+│   │   │   ├── dashboard/
+│   │   │   ├── transactions/
+│   │   │   ├── groups/
+│   │   │   └── sms/
+│   │   ├── pages/
+│   │   ├── context/
+│   │   ├── hooks/
+│   │   ├── utils/
+│   │   └── assets/
 │   └── public/
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
 ## Usage
