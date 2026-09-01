@@ -13,6 +13,32 @@ A high-end, responsive MERN stack expense tracker with stunning micro-interactio
 - **Settlement Algorithm**: Calculate minimum UPI transfers needed to settle up
 - **Budget Tracking**: Set monthly limits with visual progress indicators
 
+### 🔐 Authentication
+- User registration and login
+- JWT-based authentication
+- Google OAuth support
+- Protected API routes
+
+### 💰 Expense Management
+- Add and manage personal transactions
+- Track income and expenses
+- Delete transactions
+- View transaction statistics
+
+### 👥 Group Expenses
+- Create expense groups
+- Add members to groups
+- Split expenses between members
+- Calculate individual balances
+- Track settlements
+
+### 📊 Dashboard & Analytics
+- Total income and expenses
+- Expense statistics
+- Interactive charts
+- Budget tracking
+- Financial overview
+
 ### UI/UX Highlights
 - **Glassmorphism Header**: Frosted-glass navigation with blur effects
 - **Lottie Animations**: Engaging hero animations and micro-interactions
