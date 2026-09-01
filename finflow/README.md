@@ -100,6 +100,24 @@ npm run dev
 - `POST /api/groups` - Create new group
 - `GET /api/groups/:id` - Get group details
 - `GET /api/groups/:id/balances` - Calculate balances and settlements
+## API Endpoints
+
+### Authentication
+- POST `/api/auth/register` - Register a new user
+- POST `/api/auth/login` - Login user
+- GET `/api/auth/me` - Get current user
+
+### Transactions
+- GET `/api/transactions` - Get transactions
+- POST `/api/transactions` - Create transaction
+- GET `/api/transactions/stats` - Get transaction statistics
+- DELETE `/api/transactions/:id` - Delete transaction
+
+### Groups
+- GET `/api/groups` - Get groups
+- POST `/api/groups` - Create group
+- GET `/api/groups/:id` - Get group details
+- GET `/api/groups/:id/balances` - Get group balances
 
 ## Project Structure
 
