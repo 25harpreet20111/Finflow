@@ -1,4 +1,4 @@
-# 💰 FinFlow - Elite Expense Tracker
+#  FinFlow - Elite Expense Tracker
 
 A high-end, responsive **MERN stack personal finance management application** for tracking expenses, managing budgets, splitting transactions, and analyzing spending.
 
@@ -6,7 +6,7 @@ FinFlow combines practical financial management features with a modern **glassmo
 
 ---
 
-## ✨ Features
+##  Features
 
 ### 💳 Transaction Management
 
@@ -17,7 +17,7 @@ FinFlow combines practical financial management features with a modern **glassmo
 - View transaction history
 - Delete transactions
 
-### 📱 SMS Parser
+###  SMS Parser
 
 - Paste bank transaction SMS
 - Automatically extract transaction details
@@ -25,7 +25,7 @@ FinFlow combines practical financial management features with a modern **glassmo
 - Identify merchant information
 - Determine income or expense type using regex-based parsing
 
-### 👥 Group Expense Splitting
+###  Group Expense Splitting
 
 - Create groups for roommates, trips, couples, or custom purposes
 - Add group members
@@ -34,7 +34,7 @@ FinFlow combines practical financial management features with a modern **glassmo
 - Calculate settlements
 - Minimize the number of required transfers
 
-### 📊 Budget & Financial Analytics
+###  Budget & Financial Analytics
 
 - Set monthly spending limits
 - Track monthly income and expenses
@@ -43,7 +43,7 @@ FinFlow combines practical financial management features with a modern **glassmo
 - Visualize spending by category
 - View financial statistics
 
-### 🎨 Modern UI/UX
+###  Modern UI/UX
 
 - Responsive design
 - Glassmorphism-inspired interface
@@ -57,7 +57,7 @@ FinFlow combines practical financial management features with a modern **glassmo
 
 ---
 
-## 🖥️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 
@@ -82,9 +82,9 @@ FinFlow combines practical financial management features with a modern **glassmo
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
-### 🏠 Dashboard
+###  Dashboard
 
 The dashboard provides a complete financial overview including balance, income, expenses, spending categories, and monthly budget tracking.
 
@@ -92,7 +92,7 @@ The dashboard provides a complete financial overview including balance, income, 
 
 ---
 
-### 👥 Create Group
+###  Create Group
 
 Create expense-sharing groups for trips, roommates, couples, or custom purposes and add members to the group.
 
@@ -100,7 +100,7 @@ Create expense-sharing groups for trips, roommates, couples, or custom purposes 
 
 ---
 
-### 💳 Transactions
+###  Transactions
 
 Search and filter income and expense transactions from a centralized transaction history.
 
@@ -108,7 +108,7 @@ Search and filter income and expense transactions from a centralized transaction
 
 ---
 
-### 👤 Profile
+###  Profile
 
 Manage account information, monthly budget settings, daily safe spending, data export, and account actions.
 
@@ -116,7 +116,7 @@ Manage account information, monthly budget settings, daily safe spending, data e
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
