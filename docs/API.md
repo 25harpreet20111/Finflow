@@ -8,13 +8,13 @@ FinFlow provides RESTful APIs for authentication, transactions, groups, and fina
 
 ### Check API Status
 
-**GET** `/health`
+**GET** `/api/health`
 
 Example:
 
 ```text
 GET http://localhost:5000/api/health
-``
+```
 
 Response:
 
@@ -23,5 +23,5 @@ Response:
   "status": "ok",
   "message": "FinFlow API Running"
 }
-``
+```
 
