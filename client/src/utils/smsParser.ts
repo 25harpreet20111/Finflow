@@ -53,11 +53,11 @@ export function parseBankSMS(sms: string): ParsedSMS {
     }
   }
 
-  const datePatterns = [
-    /(\d{2}[\/\-]\d{2}[\/\-]\d{2,4})/,
-    /(\d{4}[\/\-]\d{2}[\/\-]\d{2})/,
-    /(\d{2}\s+\w+\s+\d{4})/i,
-  ];
+ const datePatterns = [
+  /(\d{4}[\/\-]\d{2}[\/\-]\d{2})/,
+  /(\d{2}[\/\-]\d{2}[\/\-]\d{2,4})/,
+  /(\d{2}\s+\w+\s+\d{4})/i,
+];
 
   for (const pattern of datePatterns) {
     const match = sms.match(pattern);
