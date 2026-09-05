@@ -1,8 +1,7 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Wallet, PieChart, Users, Shield, Zap, TrendingUp } from 'lucide-react';
-import Lottie from 'lottie-react';
-import heroAnimation from '@/assets/hero-animation.json';
+
 
 const features = [
   {
@@ -206,7 +205,7 @@ export default function Landing() {
           viewport={{ once: true }}
           className="grid md:grid-cols-2 lg:grid-cols-3 gap-6"
         >
-          {features.map((feature, index) => {
+          {features.map((feature) => {
             const Icon = feature.icon;
             return (
               <motion.div

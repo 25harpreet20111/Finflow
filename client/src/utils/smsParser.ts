@@ -15,7 +15,6 @@ export function parseBankSMS(sms: string): ParsedSMS {
   };
 
   const upperSMS = sms.toUpperCase();
-  const lowerSMS = sms.toLowerCase();
 
   const amountPatterns = [
     /rs\.?\s*([\d,]+(?:\.\d{2})?)/i,

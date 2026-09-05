@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Smartphone, Sparkles, ArrowRight } from 'lucide-react';
+import { Smartphone, Sparkles } from 'lucide-react';
 import { parseBankSMS, ParsedSMS } from '@/utils/smsParser';
 
 interface SMSParserProps {

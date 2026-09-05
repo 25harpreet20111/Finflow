@@ -58,7 +58,7 @@ export default function SpendingChart({ data }: SpendingChartProps) {
                 dataKey="value"
                 animationDuration={1000}
               >
-                {chartData.map((entry, index) => (
+                {chartData.map((_entry, index) => (
                   <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                 ))}
               </Pie>

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Search, Filter, Trash2, ChevronDown, Calendar, X } from 'lucide-react';
+import { Search, Trash2, ChevronDown, Calendar } from 'lucide-react';
 import { cn, formatCurrency, formatDate, categories } from '@/utils/helpers';
 import { useRefresh } from '@/context/RefreshContext';
 import * as LucideIcons from 'lucide-react';

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import CountUp from 'react-countup';
 import { TrendingUp, TrendingDown, Wallet, Target, ArrowUpRight, ArrowDownRight } from 'lucide-react';
-import { cn, formatCurrency } from '@/utils/helpers';
+import { cn } from '@/utils/helpers';
 import SpendingChart from './SpendingChart';
 import BudgetProgress from './BudgetProgress';
 import RecentActivity from './RecentActivity';

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Users, Plus, ArrowRight, DollarSign, Settings, UserPlus } from 'lucide-react';
+import { Users, Plus, ArrowRight, UserPlus } from 'lucide-react';
 import { cn } from '@/utils/helpers';
 import CreateGroupModal from '@/components/groups/CreateGroupModal';
 import GroupDetail from '@/components/groups/GroupDetail';

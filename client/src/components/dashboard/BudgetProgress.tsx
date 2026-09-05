@@ -31,7 +31,7 @@ export default function BudgetProgress({ expenses }: BudgetProgressProps) {
     ? 'from-yellow-500 to-orange-500'
     : 'from-red-500 to-pink-500';
 
-  const statusIcon = isHealthy ? CheckCircle : isWarning ? Target : AlertTriangle;
+  const StatusIcon = isHealthy ? CheckCircle : isWarning ? Target : AlertTriangle;
   const statusText = isHealthy ? 'On Track' : isWarning ? 'Careful!' : 'Over Budget!';
 
   return (
@@ -50,7 +50,7 @@ export default function BudgetProgress({ expenses }: BudgetProgressProps) {
           transition={{ duration: 2, repeat: Infinity }}
           className={cn('p-2 rounded-full', isDanger ? 'bg-red-500/20' : isWarning ? 'bg-yellow-500/20' : 'bg-green-500/20')}
         >
-          <statusIcon className={cn('w-5 h-5', statusColor)} />
+          <StatusIcon className={cn('w-5 h-5', statusColor)} />
         </motion.div>
       </div>
 

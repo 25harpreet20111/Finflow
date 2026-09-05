@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, Users, Search, Check } from 'lucide-react';
+import { X, Users, Search } from 'lucide-react';
 import { cn } from '@/utils/helpers';
 
 interface CreateGroupModalProps {

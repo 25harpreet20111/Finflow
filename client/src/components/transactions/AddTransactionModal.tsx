@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, Receipt, Smartphone, Mic, Check, Users } from 'lucide-react';
+import { X, Receipt, Smartphone, Check, Users } from 'lucide-react';
 import { cn, categories, categoryIcons } from '@/utils/helpers';
-import { parseBankSMS, ParsedSMS } from '@/utils/smsParser';
+import { ParsedSMS } from '@/utils/smsParser';
 import SMSParser from '@/components/sms/SMSParser';
 import SplitTransaction from './SplitTransaction';
 import { useRefresh } from '@/context/RefreshContext';
@@ -43,8 +43,7 @@ export default function AddTransactionModal({ isOpen, onClose }: AddTransactionM
     if (!token) return;
 
     const selectedCategory = category || 'Other';
-    const IconComponent = (LucideIcons as any)[categoryIcons[selectedCategory]] || LucideIcons.CreditCard;
-
+    
     const transaction = {
       type,
       amount: parseFloat(amount),

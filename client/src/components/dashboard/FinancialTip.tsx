@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Lightbulb, ChevronRight } from 'lucide-react';
+import { Lightbulb } from 'lucide-react';
 
 const financialTips = [
   {

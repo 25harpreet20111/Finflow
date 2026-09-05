@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Home, History, Plus, Users, Menu, X, Wallet, Search, Settings, LogOut } from 'lucide-react';
+import { Home, History, Plus, Users, Menu, X, Wallet, Settings, LogOut } from 'lucide-react';
 import { cn, formatCurrency } from '@/utils/helpers';
 import { useAuth } from '@/context/AuthContext';
 import AddTransactionModal from '@/components/transactions/AddTransactionModal';

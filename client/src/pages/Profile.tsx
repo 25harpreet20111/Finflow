@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { User, LogOut, Download, Save, X, Check } from 'lucide-react';
+import { LogOut, Download, X, Check } from 'lucide-react';
 import { useAuth } from '@/context/AuthContext';
 
 export default function Profile() {
