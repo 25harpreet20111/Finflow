@@ -1,126 +1,119 @@
 # 💰 FinFlow — Personal & Group Expense Tracker
 
-<p align="center">
-  <strong>A full-stack MERN expense management application for tracking transactions, managing budgets, analyzing spending, and sharing expenses with groups.</strong>
-</p>
+> A full-stack MERN expense management application for tracking personal finances, managing budgets, analyzing spending, and sharing expenses with groups.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React-18-blue?logo=react" alt="React">
-  <img src="https://img.shields.io/badge/TypeScript-5-blue?logo=typescript" alt="TypeScript">
-  <img src="https://img.shields.io/badge/Node.js-Express-green?logo=node.js" alt="Node.js">
-  <img src="https://img.shields.io/badge/MongoDB-Mongoose-green?logo=mongodb" alt="MongoDB">
-  <img src="https://img.shields.io/badge/TailwindCSS-3-blue?logo=tailwindcss" alt="Tailwind CSS">
-  <img src="https://img.shields.io/badge/Vitest-1.6-orange?logo=vitest" alt="Vitest">
-</p>
+[![React](https://img.shields.io/badge/Frontend-React%20%2B%20TypeScript-61DAFB?logo=react&logoColor=white)](https://react.dev/)
+[![Node.js](https://img.shields.io/badge/Backend-Node.js-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Express](https://img.shields.io/badge/API-Express.js-000000?logo=express&logoColor=white)](https://expressjs.com/)
+[![MongoDB](https://img.shields.io/badge/Database-MongoDB-47A248?logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![TypeScript](https://img.shields.io/badge/Language-TypeScript-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Styling-Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/Build-Vite-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Vitest](https://img.shields.io/badge/Testing-Vitest-6E9F18?logo=vitest&logoColor=white)](https://vitest.dev/)
 
 ---
 
-## 📌 Project Overview
+## 📌 Table of Contents
 
-**FinFlow** is a full-stack expense management web application designed to help users efficiently manage their personal finances and group expenses.
-
-The application provides a centralized platform where users can record transactions, monitor spending, manage budgets, analyze financial activity, and organize shared expenses through groups.
-
-FinFlow follows a modern **MERN-style architecture** using React and TypeScript for the frontend, Node.js and Express.js for the backend, and MongoDB with Mongoose for data management.
-
-The project also includes an **SMS transaction parser** that can extract useful financial information such as transaction amount, type, merchant, date, and card details from supported bank SMS formats.
-
----
-
-## 🎯 Objectives
-
-The main objectives of FinFlow are to:
-
-- Simplify personal expense tracking
-- Provide a centralized transaction management system
-- Help users monitor their budgets
-- Provide useful spending insights and analytics
-- Support group-based expense management
-- Reduce manual transaction entry using SMS parsing
-- Provide secure user authentication
-- Build a responsive and user-friendly financial dashboard
-- Demonstrate full-stack web development using modern technologies
+- [📖 Project Overview](#-project-overview)
+- [🎯 Objectives](#-objectives)
+- [✨ Key Features](#-key-features)
+- [🛠️ Technology Stack](#️-technology-stack)
+- [🏗️ System Architecture](#️-system-architecture)
+- [📂 Project Structure](#-project-structure)
+- [📸 Screenshots](#-screenshots)
+- [⚙️ Installation & Setup](#️-installation--setup)
+- [🔐 Environment Variables](#-environment-variables)
+- [▶️ Running the Application](#️-running-the-application)
+- [🧪 Testing](#-testing)
+- [🔌 API Documentation](#-api-documentation)
+- [🔒 Security](#-security)
+- [📊 Application Workflow](#-application-workflow)
+- [🚀 Future Enhancements](#-future-enhancements)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+- [👩‍💻 Author](#-author)
 
 ---
 
-## ✨ Key Features
+# 📖 Project Overview
 
-### 🔐 Authentication
+**FinFlow** is a full-stack personal and group expense tracking web application designed to help users manage their finances in an organized and efficient way.
 
-- User registration
-- User login
-- JWT-based authentication
-- Secure password hashing using `bcryptjs`
-- Protected application routes
-- User logout
+The application allows users to record transactions, monitor spending, manage budgets, view financial analytics, and organize shared expenses through groups.
 
-### 💰 Transaction Management
+FinFlow combines a modern React frontend with a Node.js/Express backend and MongoDB database to provide a complete full-stack expense management solution.
 
-- Add new transactions
-- Track income and expenses
-- Categorize transactions
-- View transaction history
-- Search transactions
-- Filter transaction data
-- Delete transactions
-- Display transaction details
+The project also includes an **SMS Transaction Parser** that can extract useful transaction information such as amount, transaction type, merchant, date, and card details from supported banking SMS messages.
 
-### 📊 Financial Dashboard
+---
 
-- Overview of financial activity
-- Total income
-- Total expenses
-- Balance information
-- Recent transactions
-- Budget progress
-- Spending visualization
-- Financial tips
+# 🎯 Objectives
 
-### 📈 Spending Analytics
+The main objectives of FinFlow are:
 
-FinFlow provides visual representations of financial activity to help users understand:
+- 📌 Simplify personal expense tracking
+- 💰 Help users monitor income and expenses
+- 📊 Provide visual spending analytics
+- 🎯 Support budget management
+- 👥 Enable shared/group expense management
+- 📱 Extract transaction information from banking SMS messages
+- 🔐 Provide secure user authentication
+- ⚡ Provide a responsive and user-friendly interface
+- 🧪 Maintain reliable application functionality through automated testing
 
-- Spending patterns
-- Category-wise expenses
-- Budget utilization
-- Income and expense trends
+---
 
-Charts and visualizations are implemented using **Recharts**.
+# ✨ Key Features
 
-### 🎯 Budget Management
+## 🔐 User Authentication
 
-Users can monitor their spending against planned budgets and quickly identify whether their spending is:
-
-- Healthy
-- Approaching the budget limit
-- Exceeding the budget
-
-### 👥 Group Expense Management
-
-FinFlow supports shared expense management through groups.
+FinFlow provides user authentication and account management functionality.
 
 Users can:
 
-- Create groups
-- Add members
-- View group information
-- Manage shared expenses
-- Track group transactions
-- Split expenses between members
+- Create an account
+- Log in securely
+- Manage their profile
+- Authenticate using JWT-based sessions
+- Use Google authentication where configured
 
-### 📱 SMS Transaction Parser
+Passwords are securely handled using hashing mechanisms on the backend.
 
-The application includes an SMS parsing utility that can extract financial information from supported bank transaction messages.
+---
 
-The parser can identify:
+## 💳 Transaction Management
 
-- 💵 Transaction amount
-- ↔️ Debit or credit type
-- 🏪 Merchant
+Users can manage their financial transactions from a centralized interface.
+
+Supported functionality includes:
+
+- Add transactions
+- Record income
+- Record expenses
+- Categorize transactions
+- View transaction history
+- Monitor transaction details
+- Track financial activity
+
+---
+
+## 📱 SMS Transaction Parser
+
+FinFlow includes an SMS parser that can identify financial information from supported bank SMS messages.
+
+The parser can detect:
+
+- 💰 Transaction amount
+- 📥 Credit transactions
+- 📤 Debit transactions
+- 🏪 Merchant name
 - 📅 Transaction date
-- 💳 Last four digits of a masked card
+- 💳 Masked card information
 
-Example:
+### Example
+
+Input:
 
 ```text
 Your account is debited Rs. 1,250.00 at Swiggy on 12/08/2026
